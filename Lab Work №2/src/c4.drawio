@@ -1,0 +1,724 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" version="24.7.17">
+  <diagram id="C4_context" name="Турнирный модуль ПроБои – C4_context">
+    <mxGraphModel dx="2200" dy="2070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="2070" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="[System Context] Турнирный модуль ПроБои" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=43;fontStyle=1;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="55" y="30" width="2090" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Уровень 1 – Пользователи и внешние системы" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=28;fontColor=#536779;" vertex="1" parent="1">
+          <mxGeometry x="55" y="95" width="2090" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SH01" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="420" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="SH01_head" value="" style="ellipse;fillColor=#123F6B;strokeColor=#123F6B;" vertex="1" parent="SH01">
+          <mxGeometry x="158.0" y="0" width="104" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="SH01_body" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:30px;font-weight:bold;line-height:1.15;&quot;&gt;Организатор /&lt;br&gt;представитель&lt;br&gt;федерации&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[Person]&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:26px;line-height:1.15;&quot;&gt;Настройка и публикация&lt;br&gt;турниров&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:22px;line-height:1.15;&quot;&gt;SH-01&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#123F6B;strokeColor=#123F6B;fontColor=#FFFFFF;arcSize=22;" vertex="1" parent="SH01">
+          <mxGeometry x="0" y="70" width="420" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="SH02" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry x="890" y="220" width="420" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="SH02_head" value="" style="ellipse;fillColor=#123F6B;strokeColor=#123F6B;" vertex="1" parent="SH02">
+          <mxGeometry x="158.0" y="0" width="104" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="SH02_body" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;Судья / секретарь&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Person]&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Допуск участников&lt;br&gt;и ведение результатов&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;SH-02&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#123F6B;strokeColor=#123F6B;fontColor=#FFFFFF;arcSize=22;" vertex="1" parent="SH02">
+          <mxGeometry x="0" y="70" width="420" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="SH03" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="220" width="420" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="SH03_head" value="" style="ellipse;fillColor=#123F6B;strokeColor=#123F6B;" vertex="1" parent="SH03">
+          <mxGeometry x="158.0" y="0" width="104" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="SH03_body" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;Представитель&lt;br&gt;клуба / тренер&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Person]&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Заявки и информация&lt;br&gt;о спортсменах клуба&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;SH-03&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#123F6B;strokeColor=#123F6B;fontColor=#FFFFFF;arcSize=22;" vertex="1" parent="SH03">
+          <mxGeometry x="0" y="70" width="420" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="SH04" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1440" width="420" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="SH04_head" value="" style="ellipse;fillColor=#123F6B;strokeColor=#123F6B;" vertex="1" parent="SH04">
+          <mxGeometry x="158.0" y="0" width="104" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="SH04_body" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:30px;font-weight:bold;line-height:1.15;&quot;&gt;Спортсмен /&lt;br&gt;законный&lt;br&gt;представитель&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[Person]&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:26px;line-height:1.15;&quot;&gt;Заявка и участие&lt;br&gt;в соревнованиях&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:22px;line-height:1.15;&quot;&gt;SH-04&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#123F6B;strokeColor=#123F6B;fontColor=#FFFFFF;arcSize=22;" vertex="1" parent="SH04">
+          <mxGeometry x="0" y="70" width="420" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="SH05" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1440" width="420" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="SH05_head" value="" style="ellipse;fillColor=#123F6B;strokeColor=#123F6B;" vertex="1" parent="SH05">
+          <mxGeometry x="158.0" y="0" width="104" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="SH05_body" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;Зритель&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Person]&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Просмотр открытой&lt;br&gt;турнирной информации&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;SH-05&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#123F6B;strokeColor=#123F6B;fontColor=#FFFFFF;arcSize=22;" vertex="1" parent="SH05">
+          <mxGeometry x="0" y="70" width="420" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="SH06" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1440" width="420" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="SH06_head" value="" style="ellipse;fillColor=#123F6B;strokeColor=#123F6B;" vertex="1" parent="SH06">
+          <mxGeometry x="158.0" y="0" width="104" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="SH06_body" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;Технический&lt;br&gt;администратор&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Person]&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Служебная проверка&lt;br&gt;работы модуля&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;SH-06&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#123F6B;strokeColor=#123F6B;fontColor=#FFFFFF;arcSize=22;" vertex="1" parent="SH06">
+          <mxGeometry x="0" y="70" width="420" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="SYS" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;Турнирный модуль&lt;br&gt;ПроБои&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[System]&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Заявки, допуск, жеребьёвка,&lt;br&gt;сетки, результаты и протоколы&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#1764AA;strokeColor=#1764AA;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="830" y="815" width="540" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="SH07" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;Основная платформа&lt;br&gt;ПроБои&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[System: External]&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Идентификация&lt;br&gt;пользователей,&lt;br&gt;профили и реестры&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;SH-07&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#8B8795;strokeColor=#8B8795;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="825" width="440" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SH08" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;Аналитический&lt;br&gt;сервис&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[System: External]&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Будущий ML-анализ&lt;br&gt;разрешённых данных&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;SH-08 / планируется&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#8B8795;strokeColor=#8B8795;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="825" width="440" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" value="Настраивает турнир,&lt;br&gt;публикует сетку&lt;br&gt;[Браузер / HTTPS]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.12962962962962962;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="SH01" target="SYS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="645" />
+              <mxPoint x="900" y="645" />
+            </Array>
+            <mxPoint x="-105.0" y="-5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_2" value="Допуск и результаты&lt;br&gt;[Браузер / HTTPS]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="SH02" target="SYS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="0.0" y="-5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_3" value="Подаёт заявки,&lt;br&gt;проверяет статусы&lt;br&gt;[Браузер / HTTPS]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.8703703703703703;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="SH03" target="SYS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1860" y="645" />
+              <mxPoint x="1300" y="645" />
+            </Array>
+            <mxPoint x="105.0" y="-5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_4" value="Подаёт свою заявку,&lt;br&gt;проверяет её статус&lt;br&gt;[Браузер / HTTPS]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0.0;entryX=0.12962962962962962;entryY=1.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="SH04" target="SYS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="1325" />
+              <mxPoint x="900" y="1325" />
+            </Array>
+            <mxPoint x="-87.5" y="-10.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_5" value="Просматривает сетки&lt;br&gt;и результаты&lt;br&gt;[Браузер / HTTPS]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0.0;entryX=0.5;entryY=1.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="SH05" target="SYS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="0.0" y="-2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_6" value="Просматривает&lt;br&gt;служебный журнал&lt;br&gt;[Браузер / HTTPS]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0.0;entryX=0.8703703703703703;entryY=1.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="SH06" target="SYS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1860" y="1325" />
+              <mxPoint x="1300" y="1325" />
+            </Array>
+            <mxPoint x="92.5" y="-10.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_7" value="Идентификация и реестры&lt;br&gt;[HTTPS / REST]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.0;exitY=0.2878787878787879;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="SYS" target="SH07">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="665" y="910" />
+              <mxPoint x="665" y="750" />
+              <mxPoint x="280" y="750" />
+            </Array>
+            <mxPoint x="-127.5" y="-3.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_8" value="Разрешённая выгрузка&lt;br&gt;[HTTPS / REST, планируется]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.7121212121212122;entryX=0.5;entryY=1.0;exitPerimeter=0;entryPerimeter=0;dashed=1;dashPattern=8 5;" edge="1" parent="1" source="SYS" target="SH08">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1535" y="1050" />
+              <mxPoint x="1535" y="1225" />
+              <mxPoint x="1920" y="1225" />
+            </Array>
+            <mxPoint x="162.5" y="-5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="caption_0" value="Подача заявок работает; сетки, результаты и протоколы проектируются." style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=25;fontColor=#536779;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1860" width="2090" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_person" value="" style="rounded=1;arcSize=10;fillColor=#123F6B;strokeColor=#123F6B;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1960" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_text_person" value="Person" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="109" y="1956" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_system" value="" style="rounded=1;arcSize=10;fillColor=#1764AA;strokeColor=#1764AA;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1960" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_text_system" value="System" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1956" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_external" value="" style="rounded=1;arcSize=10;fillColor=#8B8795;strokeColor=#8B8795;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1960" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_text_external" value="External System" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="629" y="1956" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_relation" value="→ Направление связи" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="905" y="1956" width="400" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C4_containers" name="Турнирный модуль ПроБои – C4_containers">
+    <mxGraphModel dx="2200" dy="1870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1870" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="[Containers] Турнирный модуль ПроБои" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=43;fontStyle=1;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="55" y="30" width="2090" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Уровень 2 – Приложения, хранилища и интеграции" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=28;fontColor=#536779;" vertex="1" parent="1">
+          <mxGeometry x="55" y="95" width="2090" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="scope" value="&lt;b&gt;Турнирный модуль ПроБои&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:25px;&quot;&gt;[System]&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#8293A4;dashed=1;dashPattern=8 5;strokeWidth=2;align=left;verticalAlign=top;spacingTop=18;spacingLeft=24;fontFamily=DejaVu Sans;fontSize=32;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="1640" height="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="C01" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;C01 – Веб-клиент&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Container: SPA]&lt;br&gt;TypeScript / React / Next.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Существующий веб-клиент;&lt;br&gt;заявки и экраны турнира&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#218CAE;strokeColor=#218CAE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="650" y="320" width="450" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="C02" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;C02 – Турнирный API&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Container: API]&lt;br&gt;Node.js / TypeScript&lt;br&gt;Express.js / Docker&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Заявки, сетки и&lt;br&gt;результаты;&lt;br&gt;версии, права и задания&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#218CAE;strokeColor=#218CAE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="640" y="800" width="450" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="C03" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:30px;font-weight:bold;line-height:1.15;&quot;&gt;C03 – Сервис&lt;br&gt;жеребьёвки&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[Container: Worker]&lt;br&gt;Node.js / TypeScript&lt;br&gt;worker_threads / Docker&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:26px;line-height:1.15;&quot;&gt;Расчёт сеток в пуле&lt;br&gt;вычислительных потоков&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#218CAE;strokeColor=#218CAE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="800" width="400" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="C04" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;C04 – Исполнитель&lt;br&gt;экспорта&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Container: Worker]&lt;br&gt;Node.js / TypeScript&lt;br&gt;PDFKit / ExcelJS&lt;br&gt;worker_threads / Docker&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;PDF/XLSX; выгрузка&lt;br&gt;в будущую аналитику&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#218CAE;strokeColor=#218CAE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="800" width="400" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="C05" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;C05 – Турнирная БД&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Container: Database]&lt;br&gt;PostgreSQL&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Версии, аудит, задания&lt;br&gt;и данные турниров&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=24;rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#218CAE;strokeColor=#218CAE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1320" width="450" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="C06" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:28px;font-weight:bold;line-height:1.15;&quot;&gt;C06 – Хранилище&lt;br&gt;документов&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[Container: Object Storage]&lt;br&gt;S3 API, versioning&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;S3-совместимое хранилище&lt;br&gt;PDF/XLSX; ObjectVersionID&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=24;rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#218CAE;strokeColor=#218CAE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1320" width="450" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="SH07" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;Основная&lt;br&gt;платформа&lt;br&gt;ПроБои&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[System: External]&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Идентификация, профили&lt;br&gt;и подтверждённые связи&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;SH-07&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#8B8795;strokeColor=#8B8795;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="460" width="420" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SH08" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;Аналитический&lt;br&gt;сервис&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[System: External]&lt;br&gt;Python / ML&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Планируемая аналитика;&lt;br&gt;разрешённые данные&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;SH-08 / будущая интеграция&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#8B8795;strokeColor=#8B8795;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="1170" width="420" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" value="Команды, запросы,&lt;br&gt;статусы и файлы&lt;br&gt;[HTTPS / REST]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.5222222222222223;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="C01" target="C02">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="0.0" y="-5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_2" value="Задание, heartbeat,&lt;br&gt;результат&lt;br&gt;[HTTPS / JSON]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.24561403508771928;entryX=0.13333333333333333;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="C03" target="C02">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="870" />
+              <mxPoint x="565" y="710" />
+              <mxPoint x="700" y="710" />
+            </Array>
+            <mxPoint x="-125.0" y="-35.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_3" value="Задание, снимок,&lt;br&gt;манифест&lt;br&gt;[HTTPS / JSON]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.0;exitY=0.3508771929824561;entryX=0.8888888888888888;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="C04" target="C02">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="900" />
+              <mxPoint x="1160" y="710" />
+              <mxPoint x="1040" y="710" />
+            </Array>
+            <mxPoint x="235.0" y="-60.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_4" value="Бизнес-данные, версии,&lt;br&gt;аудит и задания&lt;br&gt;[SQL / TLS]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.26666666666666666;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="C02" target="C05">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="1215" />
+              <mxPoint x="645" y="1215" />
+            </Array>
+            <mxPoint x="-155.0" y="-20.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_5" value="Проверяет и читает&lt;br&gt;точные версии файлов&lt;br&gt;[HTTPS / S3]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.8666666666666667;exitY=1.0;entryX=0.24444444444444444;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="C02" target="C06">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="1215" />
+              <mxPoint x="1200" y="1215" />
+            </Array>
+            <mxPoint x="-2.5" y="-30.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_6" value="Сохраняет PDF/XLSX&lt;br&gt;[HTTPS / S3]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.7555555555555555;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="C04" target="C06">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="85.0" y="7.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_7" value="Профили, личности и связи&lt;br&gt;[HTTPS / REST]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.12280701754385964;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="C02" target="SH07">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="835" />
+              <mxPoint x="1120" y="590" />
+              <mxPoint x="1660" y="590" />
+              <mxPoint x="1660" y="610" />
+            </Array>
+            <mxPoint x="92.5" y="-35.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_8" value="Разрешённая выгрузка&lt;br&gt;[HTTPS / REST, планируется]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.5789473684210527;entryX=0.0;entryY=0.49122807017543857;exitPerimeter=0;entryPerimeter=0;dashed=1;dashPattern=8 5;" edge="1" parent="1" source="C04" target="SH08">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1660" y="965" />
+              <mxPoint x="1660" y="1310" />
+            </Array>
+            <mxPoint x="240.0" y="-92.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="caption_0" value="Только C02 обращается к PostgreSQL. C02, C03 и C04 развёртываются в отдельных Docker-контейнерах." style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=25;fontColor=#536779;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1630" width="2090" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="caption_1" value="C03 и C04 получают задания через API. Недоступность будущей аналитики не блокирует турнир." style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=25;fontColor=#536779;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1673" width="2090" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_container" value="" style="rounded=1;arcSize=10;fillColor=#218CAE;strokeColor=#218CAE;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1760" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_text_container" value="Container" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="109" y="1756" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_external" value="" style="rounded=1;arcSize=10;fillColor=#8B8795;strokeColor=#8B8795;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1760" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_text_external" value="External System" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1756" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_relation" value="→ Направление связи" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="645" y="1756" width="400" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C4_API_components" name="Турнирный API – C4_API_components">
+    <mxGraphModel dx="2500" dy="3220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="3220" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="[Components] Турнирный API" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=43;fontStyle=1;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="55" y="30" width="2390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Уровень 3 – Внутреннее устройство контейнера C02" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=28;fontColor=#536779;" vertex="1" parent="1">
+          <mxGeometry x="55" y="95" width="2390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="scope" value="&lt;b&gt;C02 – Турнирный API&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:25px;&quot;&gt;[Container: API / Node.js / TypeScript / Express.js / Docker]&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#8293A4;dashed=1;dashPattern=8 5;strokeWidth=2;align=left;verticalAlign=top;spacingTop=18;spacingLeft=24;fontFamily=DejaVu Sans;fontSize=32;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1990" height="2350" as="geometry" />
+        </mxCell>
+        <mxCell id="C01" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;C01 – Веб-клиент&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Container: SPA]&lt;br&gt;TypeScript / React / Next.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Существующий веб-клиент;&lt;br&gt;команды турнирного модуля&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#218CAE;strokeColor=#218CAE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="470" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="C03" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:30px;font-weight:bold;line-height:1.15;&quot;&gt;C03 – Сервис&lt;br&gt;жеребьёвки&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[Container: Worker]&lt;br&gt;Node.js / TypeScript&lt;br&gt;worker_threads / Docker&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:26px;line-height:1.15;&quot;&gt;Получение задания, heartbeat,&lt;br&gt;передача результата&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#218CAE;strokeColor=#218CAE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="210" width="470" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="C04" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:30px;font-weight:bold;line-height:1.15;&quot;&gt;C04 – Исполнитель&lt;br&gt;экспорта&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[Container: Worker]&lt;br&gt;Node.js / TypeScript&lt;br&gt;PDFKit / ExcelJS&lt;br&gt;worker_threads / Docker&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:26px;line-height:1.15;&quot;&gt;Получение задания и снимка,&lt;br&gt;передача манифеста&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#218CAE;strokeColor=#218CAE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="210" width="470" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="A01" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;A01 – Express Router&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / Express.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Маршруты и проверка JSON&lt;br&gt;во время выполнения&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="750" y="760" width="500" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="A02" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;A02 – AccessPolicy&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / Node.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Проверка полномочий&lt;br&gt;в конкретном турнире&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;FR-01–09, 11–13 – NFR-05&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="760" width="420" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="A09" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;A09 –&lt;br&gt;PlatformAdapter&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / fetch (HTTPS)&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Идентификация, профили&lt;br&gt;и подтверждённые связи&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;FR-02–04&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="1170" width="420" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="A03" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:27px;font-weight:bold;line-height:1.15;&quot;&gt;A03 –&lt;br&gt;TournamentApplication&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / Node.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;Турниры, заявки, допуск,&lt;br&gt;просмотр и журнал&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:21px;line-height:1.15;&quot;&gt;FR-01–04, 10, 12&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1630" width="400" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="A04" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:28px;font-weight:bold;line-height:1.15;&quot;&gt;A04 –&lt;br&gt;DrawCoordinator&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / Node.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;Задания и приём расчёта;&lt;br&gt;перепроверка и&lt;br&gt;публикация&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:22px;line-height:1.15;&quot;&gt;FR-05–07&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1630" width="400" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="A05" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;A05 –&lt;br&gt;ResultsApplication&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / Node.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Результаты поединков&lt;br&gt;и зависимые изменения&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;FR-08–09&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1630" width="400" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="A06" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:30px;font-weight:bold;line-height:1.15;&quot;&gt;A06 –&lt;br&gt;ExportCoordinator&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / Node.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:26px;line-height:1.15;&quot;&gt;Завершение, шаблоны,&lt;br&gt;манифесты и скачивание&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:22px;line-height:1.15;&quot;&gt;FR-11, 13&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1630" width="400" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="A07" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;A07 –&lt;br&gt;TournamentDomain&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / Node.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Инварианты, состояния,&lt;br&gt;правила и результаты&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;FR-01, 04–09, 11&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2230" width="500" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="A10" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;A10 –&lt;br&gt;DurableJobPublisher&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / Node.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Запись задания через A08&lt;br&gt;в общей транзакции&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;FR-05, 11, 13&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="2230" width="470" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="A11" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:27px;font-weight:bold;line-height:1.15;&quot;&gt;A11 – StorageAdapter&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / AWS SDK for JS&lt;br&gt;(S3)&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;Проверка и чтение файлов&lt;br&gt;по точному ObjectVersionID&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:21px;line-height:1.15;&quot;&gt;FR-11&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="2230" width="400" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="A08" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;A08 – Repositories +&lt;br&gt;UnitOfWork&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / node-postgres&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;SQL, транзакции, версии,&lt;br&gt;аудит и постоянные задания&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="900" y="2640" width="520" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="SH07" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:30px;font-weight:bold;line-height:1.15;&quot;&gt;Основная&lt;br&gt;платформа&lt;br&gt;ПроБои&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[System: External]&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:26px;line-height:1.15;&quot;&gt;Идентификация&lt;br&gt;пользователей,&lt;br&gt;профили и реестры&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:22px;line-height:1.15;&quot;&gt;SH-07&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#8B8795;strokeColor=#8B8795;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1170" width="380" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="C05" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;C05 – Турнирная&lt;br&gt;БД&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Container: Database]&lt;br&gt;PostgreSQL&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Официальные данные,&lt;br&gt;версии и задания&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=24;rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#218CAE;strokeColor=#218CAE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="2640" width="380" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="C06" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:30px;font-weight:bold;line-height:1.15;&quot;&gt;C06 – Хранилище&lt;br&gt;документов&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[Container: Object Storage]&lt;br&gt;S3 API / versioning&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:26px;line-height:1.15;&quot;&gt;Версии PDF/XLSX;&lt;br&gt;ObjectVersionID&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=24;rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#218CAE;strokeColor=#218CAE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="2230" width="380" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" value="Команды и запросы&lt;br&gt;[HTTPS / JSON]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.2;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="C01" target="A01">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="415" y="570" />
+              <mxPoint x="850" y="570" />
+            </Array>
+            <mxPoint x="-72.5" y="-3.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_2" value="Claim, heartbeat, result&lt;br&gt;[HTTPS / JSON]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="C03" target="A01">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="570" />
+              <mxPoint x="1000" y="570" />
+            </Array>
+            <mxPoint x="190.0" y="0.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_3" value="Задание, снимок, манифест&lt;br&gt;[HTTPS / JSON]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.8;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="C04" target="A01">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2085" y="575" />
+              <mxPoint x="1150" y="575" />
+            </Array>
+            <mxPoint x="177.5" y="-5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_4" value="Проверяет права&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.45614035087719296;entryX=0.0;entryY=0.45614035087719296;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A01" target="A02">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="0.0" y="0.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_5" value="Уточняет личность&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A02" target="A09">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="10.0" y="2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_6" value="Идентификация и реестры&lt;br&gt;[HTTPS / REST]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.49122807017543857;entryX=0.0;entryY=0.49122807017543857;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A09" target="SH07">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="200.0" y="220.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_7" value="Операции турнира&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.08;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A01" target="A03">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="1250" />
+              <mxPoint x="300" y="1250" />
+            </Array>
+            <mxPoint x="47.5" y="0.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_8" value="Операции сетки&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.37;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A01" target="A04">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="935" y="1450" />
+              <mxPoint x="800" y="1450" />
+            </Array>
+            <mxPoint x="-135.0" y="45.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_9" value="Операции результатов&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.72;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A01" target="A05">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="1430" />
+              <mxPoint x="1300" y="1430" />
+            </Array>
+            <mxPoint x="162.5" y="0.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_10" value="Операции экспорта&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.9122807017543859;entryX=1.0;entryY=0.3508771929824561;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A01" target="A06">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="1020" />
+              <mxPoint x="1350" y="1095" />
+              <mxPoint x="2020" y="1095" />
+              <mxPoint x="2020" y="1730" />
+            </Array>
+            <mxPoint x="255.0" y="-65.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_11" value="Данные профилей&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0.0;entryX=0.23809523809523808;entryY=1.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A03" target="A09">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="1535" />
+              <mxPoint x="1660" y="1535" />
+            </Array>
+            <mxPoint x="157.5" y="0.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_12" value="Доменные правила&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A03" target="A07">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="2100" />
+              <mxPoint x="500" y="2100" />
+            </Array>
+            <mxPoint x="92.5" y="-15.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_13" value="Проверка сетки&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.8;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A04" target="A07">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="2110" />
+              <mxPoint x="650" y="2110" />
+            </Array>
+            <mxPoint x="87.5" y="-10.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_14" value="Чтение и запись в UoW&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.0;exitY=0.5087719298245614;entryX=0.0;entryY=0.47368421052631576;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A03" target="A08">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="75" y="1775" />
+              <mxPoint x="75" y="2775" />
+            </Array>
+            <mxPoint x="395.0" y="100.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_15" value="Создаёт задание&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.875;exitY=1.0;entryX=0.3617021276595745;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A04" target="A10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="2180" />
+              <mxPoint x="1190" y="2180" />
+            </Array>
+            <mxPoint x="157.5" y="-140.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_16" value="Создаёт задание&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.0;exitY=0.5263157894736842;entryX=1.0;entryY=0.5087719298245614;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A06" target="A10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="1780" />
+              <mxPoint x="1540" y="2375" />
+            </Array>
+            <mxPoint x="-30.0" y="32.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_17" value="Манифест и файлы&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A06" target="A11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="20.0" y="-2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_18" value="Задание в общей транзакции&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.6826923076923077;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A10" target="A08">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="85.0" y="2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_19" value="Данные, версии, аудит, задания&lt;br&gt;[SQL / TLS]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.543859649122807;entryX=0.0;entryY=0.543859649122807;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A08" target="C05">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="0.0" y="0.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_20" value="Точная версия файла&lt;br&gt;[HTTPS / S3]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.49122807017543857;entryX=0.0;entryY=0.49122807017543857;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="A11" target="C06">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="215.0" y="200.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="caption_0" value="A03–A06 используют доменную модель A07 и репозитории A08." style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=25;fontColor=#536779;" vertex="1" parent="1">
+          <mxGeometry x="55" y="2980" width="2390" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="caption_1" value="Данные и задание фиксируются в одной транзакции. API атомарно проверяет lease, epoch и версию." style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=25;fontColor=#536779;" vertex="1" parent="1">
+          <mxGeometry x="55" y="3023" width="2390" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_container" value="" style="rounded=1;arcSize=10;fillColor=#218CAE;strokeColor=#218CAE;" vertex="1" parent="1">
+          <mxGeometry x="55" y="3110" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_text_container" value="Container" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="109" y="3106" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_component" value="" style="rounded=1;arcSize=10;fillColor=#C7E5F5;strokeColor=#C7E5F5;" vertex="1" parent="1">
+          <mxGeometry x="315" y="3110" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_text_component" value="Component" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="369" y="3106" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_external" value="" style="rounded=1;arcSize=10;fillColor=#8B8795;strokeColor=#8B8795;" vertex="1" parent="1">
+          <mxGeometry x="575" y="3110" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_text_external" value="External System" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="629" y="3106" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_relation" value="→ Направление связи" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="905" y="3106" width="400" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C4_Draw_components" name="Сервис жеребьёвки – C4_Draw_components">
+    <mxGraphModel dx="2500" dy="2240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="2240" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="[Components] Сервис жеребьёвки" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=43;fontStyle=1;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="55" y="30" width="2390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Уровень 3 – Внутреннее устройство контейнера C03" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=28;fontColor=#536779;" vertex="1" parent="1">
+          <mxGeometry x="55" y="95" width="2390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="scope" value="&lt;b&gt;C03 – Сервис жеребьёвки&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:25px;&quot;&gt;[Container: Worker / Node.js / TypeScript / worker_threads / Docker]&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#8293A4;dashed=1;dashPattern=8 5;strokeWidth=2;align=left;verticalAlign=top;spacingTop=18;spacingLeft=24;fontFamily=DejaVu Sans;fontSize=32;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="1920" height="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="D01" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;D01 – JobConsumer&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / Node.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Опрос API и получение&lt;br&gt;нового задания&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;FR-05&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="160" y="380" width="440" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="D02" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:30px;font-weight:bold;line-height:1.15;&quot;&gt;D02 – DrawJobHandler&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / worker_threads&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:26px;line-height:1.15;&quot;&gt;Управление пулом&lt;br&gt;CPU-потоков&lt;br&gt;и результатом расчёта&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:22px;line-height:1.15;&quot;&gt;FR-05&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="160" y="980" width="440" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="D03" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:30px;font-weight:bold;line-height:1.15;&quot;&gt;D03 –&lt;br&gt;SnapshotRepository&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / Node.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:26px;line-height:1.15;&quot;&gt;Неизменяемый снимок;&lt;br&gt;временные данные расчёта&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:22px;line-height:1.15;&quot;&gt;FR-05 / локальные данные&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="780" y="380" width="440" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="D04" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;D04 – RulesValidator&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / CPU worker&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Жёсткие ограничения;&lt;br&gt;неизбежные и&lt;br&gt;неустранённые&lt;br&gt;мягкие конфликты&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;FR-05 – NFR-02&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="380" width="440" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="D05" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;D05 – InitialSeeding&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / CPU worker&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Формат сетки, bye&lt;br&gt;и начальное размещение&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;FR-05&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="780" y="980" width="440" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="D06" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;D06 –&lt;br&gt;ConstraintOptimizer&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / CPU worker&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Бюджет итераций;&lt;br&gt;штраф за одноклубников&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;FR-05&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1580" width="440" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="D07" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:30px;font-weight:bold;line-height:1.15;&quot;&gt;D07 – LeaseSupervisor&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / Node.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:26px;line-height:1.15;&quot;&gt;Heartbeat, дедлайн, fencing;&lt;br&gt;управляющий event loop&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:22px;line-height:1.15;&quot;&gt;FR-05&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1580" width="440" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="D08" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;D08 –&lt;br&gt;ResultEventPublisher&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / Node.js&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;Completed/failed через API;&lt;br&gt;повторы передачи события&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:23px;line-height:1.15;&quot;&gt;FR-05&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1580" width="440" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="D09" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:32px;font-weight:bold;line-height:1.15;&quot;&gt;D09 –&lt;br&gt;TournamentAPIClient&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;[Component]&lt;br&gt;TypeScript / fetch (HTTPS)&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:27px;line-height:1.15;&quot;&gt;HTTP-клиент: claim,&lt;br&gt;heartbeat и complete&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#C7E5F5;strokeColor=#C7E5F5;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="980" width="440" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="C02" value="&lt;div style=&quot;text-align:center;&quot;&gt;&lt;div style=&quot;font-size:28px;font-weight:bold;line-height:1.15;&quot;&gt;C02 – Турнирный API&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:24px;line-height:1.15;&quot;&gt;[Container: API]&lt;br&gt;Node.js / TypeScript&lt;br&gt;Express.js / Docker&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:25px;line-height:1.15;&quot;&gt;Выдача заданий;&lt;br&gt;проверка&lt;br&gt;официальных изменений&lt;/div&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=16;fontFamily=DejaVu Sans;fontSize=27;fillColor=#218CAE;strokeColor=#218CAE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="980" width="390" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" value="Получает задание&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.49122807017543857;entryX=0.45454545454545453;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="D01" target="D09">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="520" />
+              <mxPoint x="680" y="725" />
+              <mxPoint x="1600" y="725" />
+            </Array>
+            <mxPoint x="25.0" y="0.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_2" value="Запускает расчёт&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="D01" target="D02">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="0.0" y="2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_3" value="Фиксирует снимок&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.19298245614035087;entryX=0.5;entryY=1.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="D02" target="D03">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="1035" />
+              <mxPoint x="700" y="800" />
+              <mxPoint x="1000" y="800" />
+            </Array>
+            <mxPoint x="85.0" y="55.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_4" value="Проверяет ограничения&lt;br&gt;[worker_threads / сообщения]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.3508771929824561;entryX=0.4772727272727273;entryY=1.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="D02" target="D04">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="1080" />
+              <mxPoint x="740" y="780" />
+              <mxPoint x="1610" y="780" />
+            </Array>
+            <mxPoint x="297.5" y="75.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_5" value="Создаёт начальную сетку&lt;br&gt;[worker_threads / сообщения]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.631578947368421;entryX=0.5;entryY=1.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="D02" target="D05">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="665" y="1160" />
+              <mxPoint x="665" y="1325" />
+              <mxPoint x="1000" y="1325" />
+            </Array>
+            <mxPoint x="217.5" y="-5.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_6" value="Оптимизирует проект&lt;br&gt;[worker_threads / сообщения]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.5909090909090909;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="D02" target="D06">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="1410" />
+              <mxPoint x="1000" y="1410" />
+            </Array>
+            <mxPoint x="37.5" y="0.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_7" value="Контролирует lease&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=0.3181818181818182;exitY=1.0;entryX=0.3181818181818182;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="D02" target="D07">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-30.0" y="2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_8" value="Публикует исход расчёта&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.7894736842105263;entryX=0.25;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="D02" target="D08">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="1205" />
+              <mxPoint x="710" y="1515" />
+              <mxPoint x="1510" y="1515" />
+            </Array>
+            <mxPoint x="517.5" y="20.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_9" value="Передаёт heartbeat&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.49122807017543857;entryX=0.22727272727272727;entryY=1.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="D07" target="D09">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="1720" />
+              <mxPoint x="650" y="1470" />
+              <mxPoint x="1500" y="1470" />
+            </Array>
+            <mxPoint x="22.5" y="0.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_10" value="Передаёт completed/failed&lt;br&gt;[вызов функции]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.49122807017543857;entryX=1.0;entryY=0.7543859649122807;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="D08" target="D09">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1910" y="1720" />
+              <mxPoint x="1910" y="1195" />
+            </Array>
+            <mxPoint x="-160.0" y="-47.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_11" value="API заданий&lt;br&gt;[HTTPS/JSON]" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=1;endArrow=block;endFill=1;endSize=14;strokeWidth=2;strokeColor=#617386;fontColor=#3A4F63;fontFamily=DejaVu Sans;fontSize=25;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.45614035087719296;entryX=0.0;entryY=0.45614035087719296;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="D09" target="C02">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="0.0" y="-60.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="caption_0" value="Только C02 сохраняет официальную сетку; повторная доставка результата обрабатывается идемпотентно." style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=25;fontColor=#536779;" vertex="1" parent="1">
+          <mxGeometry x="55" y="2000" width="2390" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="caption_1" value="Воспроизводимость: фиксированные seed PRNG, версия и бюджет итераций; дедлайн отменяет расчёт." style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=25;fontColor=#536779;" vertex="1" parent="1">
+          <mxGeometry x="55" y="2043" width="2390" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_container" value="" style="rounded=1;arcSize=10;fillColor=#218CAE;strokeColor=#218CAE;" vertex="1" parent="1">
+          <mxGeometry x="55" y="2130" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_text_container" value="Container" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="109" y="2126" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_component" value="" style="rounded=1;arcSize=10;fillColor=#C7E5F5;strokeColor=#C7E5F5;" vertex="1" parent="1">
+          <mxGeometry x="315" y="2130" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_text_component" value="Component" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="369" y="2126" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_relation" value="→ Направление связи" style="text;html=1;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=24;fontColor=#172B3E;" vertex="1" parent="1">
+          <mxGeometry x="575" y="2126" width="400" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
